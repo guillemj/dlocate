@@ -32,13 +32,3 @@ Copyright:
  Jim Pick <jim@pick.com> and Craig Sanders <cas@taz.net.au>
 License: GPL
  dlocate is Free Software licensed under the GNU General Public License.
-
-Files:
- dpkg-hold*
- dpkg-purge*
- dpkg-remove*
- dpkg-unhold*
-Copyright:
- 1998 Craig Sanders
-License: public-domain
- This script is hereby placed into the public domain.
