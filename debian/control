@@ -1,6 +1,5 @@
 Source: dlocate
 Section: utils
-Priority: optional
 Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 Uploaders:
  Guillem Jover <guillem@debian.org>,
