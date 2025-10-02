@@ -3,8 +3,8 @@ Section: utils
 Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 Uploaders:
  Guillem Jover <guillem@debian.org>,
-Vcs-Browser: https://git.dpkg.org/git/dpkg/dlocate.git
-Vcs-Git: https://git.dpkg.org/cgit/dpkg/dlocate.git
+Vcs-Browser: https://git.dpkg.org/cgit/dpkg/dlocate.git
+Vcs-Git: https://git.dpkg.org/git/dpkg/dlocate.git
 Homepage: https://wiki.debian.org/Teams/Dpkg
 Standards-Version: 4.7.0
 Build-Depends:
