@@ -6,7 +6,7 @@ Uploaders:
 Vcs-Browser: https://git.dpkg.org/cgit/dpkg/dlocate.git
 Vcs-Git: https://git.dpkg.org/git/dpkg/dlocate.git
 Homepage: https://wiki.debian.org/Teams/Dpkg
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Build-Depends:
  debhelper-compat (= 13),
 
