@@ -1,3 +1,17 @@
+dlocate (1.18) unstable; urgency=medium
+
+  * Remove deprecated dpkg-hold, dpkg-unhold, dpkg-purge, dpkg-remove commands.
+  * Switch from grep-available to «dpkg --print-avail». Closes: #1116965
+  * Packaging:
+    - Remove «Rules-Requires-Root: no», which is the current default.
+    - Remove «Priority: optional», which is the current default.
+    - Swap Vcs-Browser and Vcs-Git URLs.
+    - Use balanced quotes in postinst error message.
+    - Bump Standards-Version to 4.7.2 (no changes needed).
+    - Remove no longer needed remove-on-upgrade entry from conffiles.
+
+ -- Guillem Jover <guillem@debian.org>  Thu, 02 Oct 2025 04:44:06 +0200
+
 dlocate (1.17) unstable; urgency=medium
 
   * updatedb: Fix Perl warnings due to unmatched diversion lines in db.
