@@ -95,7 +95,7 @@ deb_provided_by() {
   grep-status -F Provides "$1" -a -F Status installed -ns Package:
 }
 list_deb_providers() {
-  grep-available -F Provides "$1" -ns Package:
+  dpkg --print-avail | grep-dctrl -F Provides "$1" -ns Package:
 }
 
 

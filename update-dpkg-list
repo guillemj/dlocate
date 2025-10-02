@@ -33,7 +33,7 @@ close $dpkg_fh;
 # now get missing details for uninstalled packages
 $/ = '';
 open my $dctrl_fh, '-|',
-    "grep-available -e . -s Package,Description,Architecture,Version";
+    "dpkg --print-avail";
 while (<$dctrl_fh>) {
     parse_pkg('DCTRL', $_);
 }
