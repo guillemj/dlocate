@@ -8,7 +8,6 @@ Vcs-Browser: https://git.dpkg.org/git/dpkg/dlocate.git
 Vcs-Git: https://git.dpkg.org/cgit/dpkg/dlocate.git
 Homepage: https://wiki.debian.org/Teams/Dpkg
 Standards-Version: 4.7.0
-Rules-Requires-Root: no
 Build-Depends:
  debhelper-compat (= 13),
 
