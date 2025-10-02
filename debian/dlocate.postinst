@@ -11,7 +11,7 @@ configure)
 abort-upgrade|abort-remove|abort-deconfigure)
   ;;
 *)
-  echo "postinst called with unknown argument \`$1'" >&2
+  echo "postinst called with unknown argument '$1'" >&2
   exit 0
   ;;
 esac
